@@ -8,6 +8,7 @@ mongoimport --uri=$MONGODB_URI -c equipment --file src/5e-SRD-Equipment.json --j
 mongoimport --uri=$MONGODB_URI -c features --file src/5e-SRD-Features.json --jsonArray --drop
 mongoimport --uri=$MONGODB_URI -c languages --file src/5e-SRD-Languages.json --jsonArray --drop
 mongoimport --uri=$MONGODB_URI -c levels --file src/5e-SRD-Levels.json --jsonArray --drop
+mongoimport --uri=$MONGODB_URI -c magic-items --file src/5e-SRD-Magic-Items.json --jsonArray --drop
 mongoimport --uri=$MONGODB_URI -c magic-schools --file src/5e-SRD-Magic-Schools.json --jsonArray --drop
 mongoimport --uri=$MONGODB_URI -c monsters --file src/5e-SRD-Monsters.json --jsonArray --drop
 mongoimport --uri=$MONGODB_URI -c proficiencies --file src/5e-SRD-Proficiencies.json --jsonArray --drop
